@@ -1,0 +1,169 @@
+.container{
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  font-size: 16px;
+
+}
+.colorgray{
+  background-color: #484848;
+  color: white;
+}
+.colorgreen{
+  background: #89c331;
+  
+color: white;
+}
+.colorred{
+  background: #f04a56;
+  
+ color: white;
+}
+.colorblue{
+  background: #20807c;
+  
+  color: white;
+}
+.container span:nth-child(1) {
+font-size: 18px;
+}
+.container span:nth-child(2){
+font-size: 30px;
+}
+.block1 {
+  display: block;
+
+width: 192px;
+height:50px;
+position: relative;
+
+text-align: center;
+font-size: 16px;
+border-radius: 10px;
+line-height: 50px; 
+margin-left: auto;
+margin-right: auto;
+}
+
+.container span :nth-child(3) {
+position: absolute;
+top: 50%;
+}
+
+
+
+
+.block1:hover{
+transition: 0.1;
+opacity: 0.5;
+}
+
+
+
+.gray1 {
+  background-color: #f2f2f2; 
+} 
+.gray2 {
+ background-color: #e3e3e3;
+}
+ p {
+   line-height: 10px;
+}
+ .gray5{
+background-color:#eeeeee;
+}
+ .gray3{
+background-color:#dddddd;
+}
+  .gray7 {
+background-color:#f4f4f4;
+}
+
+TABLE {
+border-collapse: collapse;
+border: 1px double #d5d5d5;
+text-align: center;
+vertical-align: middle;
+margin: 19px;
+ width: 1080px;
+ height: 680px; 
+}
+TR {
+vertical-align: middle;
+border: 2px solid #d5d5d5;
+ width: auto;
+ height: auto; 
+}
+TD {
+vertical-align: middle;
+border: 2px solid #d5d5d5;  
+}
+
+.line{
+ bottom: 0;
+    width: 192px;
+  height: 10px;
+  
+border-radius: 0px 0px 10px 10px;
+position: absolute;
+}
+
+
+.colorline{
+  background-color:#404040;
+}
+
+.colorline1{
+  background-color:#79b027;
+}
+
+.colorline2{
+  background-color:#df3a46;
+}
+
+.colorline3{
+  background-color:#16736f; 
+}
+
+
+
+.fas{
+color: #848484;
+margin-right: 12px;
+}
+.far{
+  color: #848484;
+  margin-right: 12px;
+}
+.dollars {
+ top: 0;
+font-size: 60px;
+display: inline-block;
+position: relative;
+}
+.dollars::before{
+  content: '$';
+}
+.dollars::after {
+content: '.99';
+position: absolute;
+font-size: 24px;
+top: 24px; 
+}
+
+
+.text {
+  position: absolute; 
+  top: 15%;
+  left: 22%;
+width: auto;
+height: auto;
+font-size:16px;
+}
+
+.font{
+  font-size: 24px;
+}
+
+.font1{
+   font-size: 30px;
+} 
